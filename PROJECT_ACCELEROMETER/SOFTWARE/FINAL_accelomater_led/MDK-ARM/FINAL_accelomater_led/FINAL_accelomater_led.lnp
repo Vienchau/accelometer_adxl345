@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"final_accelomater_led\startup_stm32f103xb.o"
+"final_accelomater_led\main.o"
+"final_accelomater_led\gpio.o"
+"final_accelomater_led\i2c.o"
+"final_accelomater_led\spi.o"
+"final_accelomater_led\stm32f1xx_it.o"
+"final_accelomater_led\stm32f1xx_hal_msp.o"
+"final_accelomater_led\stm32f1xx_hal_gpio_ex.o"
+"final_accelomater_led\stm32f1xx_hal_i2c.o"
+"final_accelomater_led\stm32f1xx_hal.o"
+"final_accelomater_led\stm32f1xx_hal_rcc.o"
+"final_accelomater_led\stm32f1xx_hal_rcc_ex.o"
+"final_accelomater_led\stm32f1xx_hal_gpio.o"
+"final_accelomater_led\stm32f1xx_hal_dma.o"
+"final_accelomater_led\stm32f1xx_hal_cortex.o"
+"final_accelomater_led\stm32f1xx_hal_pwr.o"
+"final_accelomater_led\stm32f1xx_hal_flash.o"
+"final_accelomater_led\stm32f1xx_hal_flash_ex.o"
+"final_accelomater_led\stm32f1xx_hal_exti.o"
+"final_accelomater_led\stm32f1xx_hal_spi.o"
+"final_accelomater_led\stm32f1xx_hal_tim.o"
+"final_accelomater_led\stm32f1xx_hal_tim_ex.o"
+"final_accelomater_led\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "FINAL_accelomater_led\FINAL_accelomater_led.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "FINAL_accelomater_led.map" -o FINAL_accelomater_led\FINAL_accelomater_led.axf
